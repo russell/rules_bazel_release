@@ -1,0 +1,7 @@
+apiVersion: simopolis.xyz/v1alpha1
+kind: StateConfig
+target:
+  //:deploy_semantic_release:
+    files:
+    - Path: .github/workflows/semantic-release.yml
+    - Path: .releaserc.json
