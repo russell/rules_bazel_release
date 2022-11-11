@@ -23,7 +23,7 @@ local next_branch = std.extVar("NEXT_BRANCH");
           name: 'Setup Node.js',
           uses: 'actions/setup-node@v1',
           with: {
-            'node-version': 12,
+            'node-version': 16,
           },
         },
         {
